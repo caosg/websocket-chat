@@ -18,7 +18,7 @@
 			<div class="row">
 				<nav class="navbar navbar-inverse navbar-embossed" role="navigation">
 		            <div class="collapse navbar-collapse" id="navbar-collapse-01">
-		              <h1 style="color:red">当前用户--{{username}}</h1>
+		              <h1 style="color:#a6a541">当前用户--{{username}}</h1>
 		              <ul class="nav navbar-nav navbar-right">
 		              	<!--<li><a href="websocket" target="_blank">Stats</a></li>-->
 		                <li><a href="logout">退出</a></li>
@@ -49,8 +49,9 @@
         	</div>
         	<div class="row">
        			<div class="form-group">
-       			  <span><small>你将发送信息给<strong>{{sendTo}}</strong> (点击用户名,可以发送私信)</small></span>
-				  <input id="newMessageInput" type="text" class="form-control" placeholder="输入信息,点击回车发送..." ng-model="newMessage" ng-keyup="$event.keyCode == 13 ? sendMessage() : startTyping()"/>
+       			  <span><small>你将发送信息给<strong style="color: #cbab6f">{{sendTo}}</strong> (<span style="color: #00a1cb">点击用户名,可以发送私信</span>)</small></span>
+				  <input id="newMessageInput" type="text"  class="form-control"
+						 placeholder="输入信息,点击回车发送..." ng-model="newMessage" ng-keyup="$event.keyCode == 13 ? sendMessage() : startTyping()"/>
 				</div>
         	</div>
 	    </div>

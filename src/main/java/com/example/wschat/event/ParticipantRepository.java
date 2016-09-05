@@ -5,7 +5,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * 
- * @author Sergi Almar
+ * @author caosg by 2016
  */
 public class ParticipantRepository {
 

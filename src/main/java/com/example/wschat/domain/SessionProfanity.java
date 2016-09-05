@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 /**
  * 
- * @author Sergi Almar
+ * @author
  */
 public class SessionProfanity {
 

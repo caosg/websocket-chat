@@ -2,7 +2,7 @@ package com.example.wschat.exception;
 
 /**
  * 
- * @author Sergi Almar
+ * @author caosg
  */
 public class TooMuchProfanityException extends RuntimeException {
 

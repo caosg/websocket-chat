@@ -13,7 +13,7 @@ import java.util.Optional;
  * Sends notifications to the login destination when a connected event is received
  * and notifications to the logout destination when a disconnect event is received
  * 
- * @author Sergi Almar
+ * @author caosg by 2016
  */
 public class PresenceEventListener {
 	

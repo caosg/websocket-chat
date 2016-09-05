@@ -22,7 +22,7 @@ import java.util.Collection;
 /**
  * Controller that handles WebSocket chat messages
  * 
- * @author Sergi Almar
+ * @author
  */
 @Controller
 public class ChatController {

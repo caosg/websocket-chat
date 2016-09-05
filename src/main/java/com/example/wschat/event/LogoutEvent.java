@@ -2,7 +2,7 @@ package com.example.wschat.event;
 
 /**
  * 
- * @author Sergi Almar
+ * @author caosg by 2016.09.04
  */
 public class LogoutEvent {
 	
